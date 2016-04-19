@@ -1,0 +1,132 @@
+/****GLOBAL****/
+
+.topnav {
+  position:fixed;
+  z-index:10;
+  top:0px;
+  width:100%;
+  background-color:white;
+}
+
+.topnav .menu {
+  color: black;
+  float:right;
+  padding:20px;
+  transition: .3s background-color;
+  height:100%;
+  right:20px;
+  position:relative;
+  top:5px;
+}
+
+.topnav .menu:hover {
+  background-color: #538593;
+}
+
+.logo {
+  width:4%;
+  padding-bottom:2px;
+  float:left;
+}
+
+.footer {
+  text-align:center;
+  margin-top:30px;
+  font-size:10px;
+}
+
+.footer h3 {
+  font-family: Georgia, serif;
+  text-align:center;
+  margin-top:50px;
+}
+
+/******HOME******/
+
+.nav ul {
+  list-style: none;
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.nav li {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+  width: 300px;
+  border-bottom: none;
+  height: 4em;
+  line-height: 4em;
+  background-color:#AA7239;
+  border-radius:25px;
+  border: 2px solid #683A0C;
+  margin:50px;
+  display:inline-block;
+  position:relative;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: .3s background-color;
+  height:2em;
+  width:300px;
+  font-size:2em;
+  border-radius:25px;
+}
+ 
+.nav a:hover {
+  background-color: #ECB882;
+}
+
+.nav {
+  position: relative;
+  bottom:200px;
+}
+
+.header h1 {
+  position:absolute;
+  left:26%;
+  top:40px;
+  color:#A5CAD5;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:7em;
+}
+
+.header h2 {
+  font-size:2em;
+  position:absolute;
+  left: 43%;
+  bottom:20px;
+  top:230px;
+}
+
+.header {
+  width:100%;
+  height:1000px;
+  position: relative;
+  text-align:center;
+  top:50px;
+  margin-bottom:-170px;
+}
+
+.background {
+  width:100%;
+}
+
+.video {
+  margin:auto;
+  text-align:center;
+  background-color:#5978C0;
+  border-top:5px solid black;
+  border-bottom:5px solid black;
+  padding:20px;
+}
+
+.video iframe {
+  height:540px;
+  width:780px;
+}
