@@ -130,3 +130,46 @@
   height:540px;
   width:780px;
 }
+
+/****ABOUT****/
+
+div h1 {
+  text-align:center;
+  position:relative;
+  font-size:3em;
+}
+
+div p {
+  font-size:1.5em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.bridge {
+  width:100%;
+  margin-bottom:0px;
+}
+
+.whatis {
+  background-color:#5489BC;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  padding:25px 100px 25px 100px;
+}
+
+.whatdoes {
+  background-color:#FFC166;
+  border-bottom:2px solid black;
+  padding:25px 100px 25px 100px;
+}
+
+.whyget {
+  background-color:#4CBD9E;
+  border-bottom:2px solid black;
+  padding:25px 100px 25px 100px;
+}
+
+.thestory {
+  background-color:#D4C083;
+  border-bottom:2px solid black;
+  padding:25px 100px 25px 100px;
+}
